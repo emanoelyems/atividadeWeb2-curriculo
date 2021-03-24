@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*----------------- GERAL ------------ */
+body {
+  background-color: #000000;
+  color: #e5e5e5;
+}
+hr {
+  border-color: #fca311;
+}
+#expe-list,
+#edu-list,
+#refe-list,
+p {
+  font-size: 1.4rem;
+  margin: 0 5.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 1rem 3.4rem;
+}
+h2:hover {
+  color: #fca311;
+  transition: 1s;
+}
+/*----------------- AVATAR ------------ */
+#avatar {
+  background-color: #14213d;
+  width: 22%;
+  height: 45vh;
+  border-radius: 100%;
+  margin: 2rem;
+  float: left;
+  box-shadow: #fca311 1px 2px 10px;
+}
+#avatar img {
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  top: 1.2rem;
+  left: 2.4rem;
+}
+/*----------------- CABEÇALHO ------------ */
+#topo {
+  width: 100%;
+  height: 60vh;
+  margin: 0 auto;
+}
+#dados {
+  list-style-type: none;
+  width: 100%;
+  position: relative;
+  top: 3rem;
+  left: 3.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+#dados li {
+  margin-bottom: 0.8rem;
+}
+#dados:hover {
+  color: #fca311;
+  transition: 1s;
+}
+#topo h1 {
+  font-size: 2.8rem;
+  position: relative;
+  top: 0.5rem;
+  left: 3.3rem;
+}
+#topo h1:hover {
+  color: #fca311;
+  transition: 1s;
+}
+/*----------------- OBJETIVO ------------ */
+#obje {
+  width: 100%;
+  height: 20vh;
+}
+#obje p {
+  margin-bottom: 2rem;
+}
+/*----------------- HABILIDADES ------------ */
+#habi {
+  width: 100%;
+  height: 70vh;
+}
+#habi p {
+  margin-bottom: 1.5rem;
+}
+/*----------------- EXPERIÊNCIA ------------ */
+#expe {
+  width: 100%;
+  height: 30vh;
+}
+#expe ul {
+  list-style-type: square;
+  margin-bottom: 2rem;
+}
+/*----------------- EDUCAÇÃO ------------ */
+#edu {
+  width: 100%;
+  height: 30vh;
+}
+#edu ul {
+  list-style-type: disc;
+  margin-bottom: 1.5rem;
+}
+/*----------------- COMUNICAÇÃO ------------ */
+#comu {
+  width: 100%;
+  height: 20vh;
+}
+#comu p {
+  margin-bottom: 2rem;
+}
+/*----------------- REFERÊNCIAS ------------ */
+#refe {
+  width: 100%;
+  height: 45vh;
+}
+#refe li {
+  list-style-type: upper-roman;
+  margin-bottom: 1rem;
+}
